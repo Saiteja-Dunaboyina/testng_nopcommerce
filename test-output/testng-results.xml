@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-23T09:53:22 IST" name="Suite" finished-at="2024-01-23T09:53:33 IST" duration-ms="10889">
+    <groups>
+    </groups>
+    <test started-at="2024-01-23T09:53:22 IST" name="Test" finished-at="2024-01-23T09:53:33 IST" duration-ms="10889">
+      <class name="com.nopcommerce.test.NopcommerceTest">
+        <test-method is-config="true" signature="getWedDriver()[pri:0, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:20 IST" name="getWedDriver" finished-at="2024-01-23T09:53:22 IST" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWedDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:22 IST" name="setup" finished-at="2024-01-23T09:53:24 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest()[pri:1, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:24 IST" name="registrationTest" finished-at="2024-01-23T09:53:29 IST" duration-ms="4593" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Registration is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Registration is skipped
+at com.nopcommerce.pages.RegistrationPage.registration(RegistrationPage.java:53)
+at com.nopcommerce.test.NopcommerceTest.registrationTest(NopcommerceTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="loginTest()[pri:2, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:29 IST" name="loginTest" finished-at="2024-01-23T09:53:31 IST" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="menuBarTest()[pri:3, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:31 IST" name="menuBarTest" finished-at="2024-01-23T09:53:33 IST" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuBarTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.test.NopcommerceTest@1ca3b418]" started-at="2024-01-23T09:53:33 IST" name="teardown" finished-at="2024-01-23T09:53:33 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.test.NopcommerceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
